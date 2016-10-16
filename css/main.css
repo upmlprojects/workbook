@@ -1,0 +1,134 @@
+body {
+    width: 100%;
+    height: 120%;
+    margin: 0px;
+    background-color: #f2ffcc;
+    font-family: 'Poiret One', cursive;
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 120%;
+}
+.week {
+    width: 16.12903236vw;
+    height: 16.12903236vw;
+    background-color: #d9ff66;
+    border-radius: 12.5%;
+    text-align: center;
+    font-weight: 200;
+    border: 2px solid #95a5a6;
+}
+.week_txt {
+    position: relative;
+    top: 12.5%;
+    font-size: 4.2vw;
+    margin: 0px;
+    padding: 0px;
+}
+.week_num {
+    position: relative;
+    bottom: -25%;
+    font-size: 4.2vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2vw;
+}
+.login {
+    position: absolute;
+    top: 35%;
+    height: 30%;
+    width: 7%;
+    left: 5%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #4ae004;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+#login-txt {
+    position: relative;
+    top: 12%;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+}
+
+[class*="col-"] {
+    width: 16.12903236vw;
+    height: 100%;
+
+    
+}
+
+.col-1 {
+    position: absolute;
+    left: 9.677419354839vw;
+}
+
+.col-2 {
+    position: absolute;
+    left: 41.93548387vw;
+}
+
+.col-3 {
+    position: absolute;
+    right:  9.677419354839vw;
+}
+
+[class*="row-"] {
+    width: 100%;
+    height: 16.12903236vw;
+}
+
+.row-1 {
+    position: absolute;
+    top:  9.677419354839vw;
+}
+
+.row-2 {
+    position: absolute;
+    top: 41.93548387vw;
+}
+
+.row-3 {
+    position: absolute;
+    top: 58.06451613vw;
+}
+
+a:visited {
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.week:hover {
+    background-color: #ccff33;
+}
+
+.week:active {
+    background-color: #4d6600;
+}
+
+
+@media only screen and (max-width: 622px) {
+    
+}

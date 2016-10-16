@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    margin: 0px;
+}
+
+.input_section {
+    background-color: #ecf0f1;
+    padding: 1%;
+    padding-bottom: 2%;
+    width: 30%;
+    position: absolute;
+    left: 34%;
+    border-radius: 20px;
+}
+
+input {
+    width: 40%;
+    height: 30%;
+    border-radius: 3px;
+}
+button {
+    position: absolute;
+    top: 40%;
+    width: 10%;
+    height: 10%;
+    left: 45%;
+    background-color: #ecf0f1;
+    border: none;
+    border-radius: 10px;
+    font-size: 3vh;
+}
+.output_section {
+    width: 100%;
+    position: absolute;
+    bottom: 30%;
+    font-size: 6vh;
+}
+button:active {
+    color: blue;
+    background-color: #bdc3c7;
+}
+button:selected {
+    border: none;
+}
